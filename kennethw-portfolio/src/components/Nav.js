@@ -12,13 +12,15 @@ class Nav extends React.Component {
 
 render() {
     return(
-        <div>
-            <h1>Kenneth M. Williamns Jr</h1>
+        <div className= "nav">
+            <h1 className= "name">Kenneth M. Williamns Jr.</h1>
        
             {/* <Menu> */}
-                <Anchorlink href='./AboutMe'>About Me</Anchorlink>
-                <Anchorlink href='./SelectedProjects'>Selected Projects</Anchorlink> 
-                <Anchorlink href='./ContactMe'>Contact Me</Anchorlink>       
+            {/* <div className= "nav-link-wrapper"> */}
+                <Anchorlink className= "nav-link" href='./ContactMe'>Contact</Anchorlink>
+                <Anchorlink className= "nav-link" href='./SelectedProjects'>Selected Projects</Anchorlink>   
+                <Anchorlink className= "nav-link" href='./AboutMe'>About Me</Anchorlink>     
+            {/* </div> */}
             {/* </Menu> */}
         </div>
         
