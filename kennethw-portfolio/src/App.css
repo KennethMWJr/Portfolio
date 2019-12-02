@@ -101,6 +101,14 @@ img:hover, img:active {
   padding: 20px;
 }
 
+.email {
+  color: rgb(47,33,26);
+}
+
+.email:hover, .email:active {
+  color: rgb(67, 67, 221);
+}
+
 .footer {
   text-align: center;
   background: rgb(47,33,26);
@@ -115,3 +123,14 @@ img:hover, img:active {
   width: 30px;
 } 
 
+.linkedin:hover, .linkedin:active {
+  height: 42px;
+  width: 36px;
+
+}
+
+.github:hover, .github:active {
+  height: 42px;
+  width: 36px;
+
+}
