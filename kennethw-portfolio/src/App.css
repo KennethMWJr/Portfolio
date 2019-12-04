@@ -63,6 +63,7 @@ img {
   width: 360px;
   margin: 0 auto;
   border-radius: 25px;
+  transition: border-radius .2s ease-out;
   
 }
 
@@ -119,18 +120,22 @@ img:hover, img:active {
 }
 
 .linkedin, .github {
-  height: 36px;
+  height: 30px;
   width: 30px;
+  border-radius: 50%;
+  transition: transform .2s ease-in;
 } 
 
-.linkedin:hover, .linkedin:active {
-  height: 42px;
-  width: 36px;
+.linkedin {
+  margin-right: 10px;
+}
+
+.linkedin:hover, .github:hover {
+  transform: scale(1.2);
 
 }
 
-.github:hover, .github:active {
-  height: 42px;
-  width: 36px;
-
+.linkedin:active, .github:active {
+ transform: scale(.8)
 }
+
